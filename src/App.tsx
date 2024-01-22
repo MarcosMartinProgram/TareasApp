@@ -8,19 +8,15 @@ import { Header } from './components/Header'
 const mockTodos = [
   {
     id: '1',
-    title: 'limpiar',
+    title: 'tarea muestra',
     completed: true
   },
   {
     id: '2',
-    title: 'cocinar',
-    completed: false
-  },
-  {
-    id: '3',
-    title: 'lavar platos',
+    title: 'tarea muestra',
     completed: false
   }
+
 ]
 
 const App = (): JSX.Element => {
